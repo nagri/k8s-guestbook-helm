@@ -1,0 +1,7 @@
+frontend:
+  replicaCount: 3
+  service:
+    type: LoadBalancer
+    port: 80
+redis_follower:
+  replicaCount: 2
