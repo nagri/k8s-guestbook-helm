@@ -1,5 +1,5 @@
 frontend:
-  replicaCount: 3
+  replicaCount: 2
   service:
     type: LoadBalancer
     port: 80
