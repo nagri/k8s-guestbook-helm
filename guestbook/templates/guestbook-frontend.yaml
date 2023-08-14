@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend
+  name: guestbook-frontend
 spec:
   replicas: {{ .Values.frontend.replicaCount}}
   selector:
